@@ -17,7 +17,13 @@
 # end
 
 # 4
+# c1 = "red"
+# c2 = "white"
+# c3 = "blue"
+# p "the american flag is " + c1 + ", " + c2 + " and " + c3
+
+# 5
 c1 = "red"
 c2 = "white"
 c3 = "blue"
-p "the american flag is " + c1 + ", " + c2 + " and " + c3
+p "The american flag is #{c1}, #{c2}, and #{c3}"
