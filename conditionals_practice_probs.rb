@@ -55,9 +55,19 @@
 # end
 
 # 7
-n = 11
-if n < 0
-  p 1776
-else
-  p 1979
+# n = 11
+# if n < 0
+#   p 1776
+# else
+#   p 1979
+# end
+
+# 8
+n = 1001
+if n == 99
+  p 99
+elsif n == 100
+  p 100
+else 
+  p 0
 end
