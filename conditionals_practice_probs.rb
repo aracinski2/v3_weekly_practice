@@ -17,10 +17,18 @@
 # end
 
 # 3
-n1 = 3
-n2 = 11
-if n1 < 10 && n2 < 10
+# n1 = 3
+# n2 = 11
+# if n1 < 10 && n2 < 10
+#   p 1
+# else
+#   p 0 
+# end
+
+# 4
+n = 9001
+if n > 9000
   p 1
-else
-  p 0 
+else 
+  p 0
 end
