@@ -34,13 +34,22 @@
 # end
 
 # 5
-n = 9
-if n < 10
-  p 9
-elsif n < 20
-  p 19
-elsif n < 30
-  p 29
-else 
-  p -1
+# n = 9
+# if n < 10
+#   p 9
+# elsif n < 20
+#   p 19
+# elsif n < 30
+#   p 29
+# else 
+#   p -1
+# end
+
+# 6
+n1 = 8
+n2 = 11
+if n1 > 10 || n2 >10
+  p 100
+else
+  p -100
 end
