@@ -23,7 +23,14 @@
 # p "the american flag is " + c1 + ", " + c2 + " and " + c3
 
 # 5
-c1 = "red"
-c2 = "white"
-c3 = "blue"
-p "The american flag is #{c1}, #{c2}, and #{c3}"
+# c1 = "red"
+# c2 = "white"
+# c3 = "blue"
+# p "The american flag is #{c1}, #{c2}, and #{c3}"
+
+# 6
+p "Please enter your name"
+name = gets.chomp
+if name != "Santa"
+  p "Youre not santa"
+end
