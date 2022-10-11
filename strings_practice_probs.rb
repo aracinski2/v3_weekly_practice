@@ -10,8 +10,14 @@
 # p "#{f_name} #{l_name}"
 
 # 3
-p "enter a word"
-word = gets.chomp
-if word == "marco"
-  p "polo"
-end
+# p "enter a word"
+# word = gets.chomp
+# if word == "marco"
+#   p "polo"
+# end
+
+# 4
+c1 = "red"
+c2 = "white"
+c3 = "blue"
+p "the american flag is " + c1 + ", " + c2 + " and " + c3
