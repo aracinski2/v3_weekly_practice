@@ -51,11 +51,20 @@
 // }
 
 // 6
-let x = 9
-let y = 12
+// let x = 9
+// let y = 12
 
-if (x > 10 || y > 10) {
-  console.log(100);
+// if (x > 10 || y > 10) {
+//   console.log(100);
+// } else {
+//   console.log(-100)
+// }
+
+// 7
+let x = 2
+
+if (x < 0) {
+  console.log(1776);
 } else {
-  console.log(-100)
+  console.log(1979);
 }
