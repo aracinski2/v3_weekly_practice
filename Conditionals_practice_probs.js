@@ -61,10 +61,21 @@
 // }
 
 // 7
-let x = 2
+// let x = 2
 
-if (x < 0) {
-  console.log(1776);
+// if (x < 0) {
+//   console.log(1776);
+// } else {
+//   console.log(1979);
+// }
+
+// 8
+let x = 34
+
+if (x === 100) {
+  console.log(100);
+} else if (x === 99) {
+  console.log(99);
 } else {
-  console.log(1979);
+  console.log(0);
 }
