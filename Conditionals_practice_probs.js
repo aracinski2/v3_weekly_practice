@@ -81,11 +81,26 @@
 // }
 
 // 9
-let x = 3
-let y = 3
+// let x = 3
+// let y = 3
 
-if (x < 0 && y > 0) {
-  console.log(1);
+// if (x < 0 && y > 0) {
+//   console.log(1);
+// } else {
+//   console.log(0);
+// }
+
+// 10
+let x = 15
+
+if (x > 80) {
+  console.log(5);
+} else if (x > 60) {
+  console.log(4);
+} else if (x > 40) {
+  console.log(3);
+} else if (x > 20) {
+  console.log(2);
 } else {
-  console.log(0);
+  console.log(1)
 }
