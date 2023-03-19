@@ -19,11 +19,20 @@
 // }
 
 // 3
-let x = 10
-let y = 7
+// let x = 10
+// let y = 7
 
-if (x < 10 && y < 10) {
+// if (x < 10 && y < 10) {
+//   console.log(1);
+// } else {
+//   console.log(0)
+// }
+
+// 4
+let x = 2342
+
+if (x > 9000) {
   console.log(1);
 } else {
-  console.log(0)
+  console.log(-1);
 }
