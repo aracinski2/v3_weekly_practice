@@ -1,96 +1,97 @@
 # 1
-# n = 10
-# if n == 10
+# x = 9
+# if x == 10
 #   p 0
 # else
 #   p -1
 # end
 
 # 2
-# n = 11
-# if n < 10
+# x = 11
+# if x < 10
 #   p -1
-# elsif n > 10
+# elsif x > 10
 #   p 1
 # else
 #   p 0
 # end
 
 # 3
-# n1 = 3
-# n2 = 11
-# if n1 < 10 && n2 < 10
+# x = 3
+# y = 11
+# if x < 10 && y < 10
 #   p 1
 # else
-#   p 0 
-# end
-
-# 4
-# n = 9001
-# if n > 9000
-#   p 1
-# else 
 #   p 0
 # end
 
+# 4
+# x = 902
+# if x > 9000
+#   p 1
+# else
+#   p -1
+# end
+
 # 5
-# n = 9
-# if n < 10
+# x = 30
+# if x < 10
 #   p 9
-# elsif n < 20
+# elsif x < 20
 #   p 19
-# elsif n < 30
+# elsif x < 30
 #   p 29
-# else 
+# else
 #   p -1
 # end
 
 # 6
-# n1 = 8
-# n2 = 11
-# if n1 > 10 || n2 >10
+# x = 7
+# y = 30
+# if x > 10 || y > 10
 #   p 100
 # else
 #   p -100
 # end
 
 # 7
-# n = 11
-# if n < 0
+# x = 10
+# if x < 0
 #   p 1776
 # else
 #   p 1979
 # end
 
 # 8
-# n = 1001
-# if n == 99
-#   p 99
-# elsif n == 100
+# x = 42
+# if x == 100
 #   p 100
-# else 
+# elsif x == 99
+#   p 99
+# else
 #   p 0
 # end
 
-#9
-# n1 = -1
-# n2 = 1
-# if n1 < 0 && n2 > 0
+# 9
+# x = 0
+# y = 7
+# if x < 0 && y > 0
 #   p 1
-# else 
+# else
 #   p 0
 # end
 
 # 10
-n = 10
-if n > 80
+x = 19
+
+if x > 80
   p 5
-elsif n > 60
+elsif x > 60
   p 4
-elsif n > 40
+elsif x > 40
   p 3
-elsif n > 20
+elsif x > 20
   p 2
-else
+else 
   p 1
 end

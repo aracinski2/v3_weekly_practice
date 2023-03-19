@@ -29,8 +29,10 @@
 # p "The american flag is #{c1}, #{c2}, and #{c3}"
 
 # 6
-p "Please enter your name"
-name = gets.chomp
-if name != "Santa"
-  p "Youre not santa"
-end
+# p "Please enter your name"
+# name = gets.chomp
+# if name != "Santa"
+#   p "Youre not santa"
+# end
+
+# 7
