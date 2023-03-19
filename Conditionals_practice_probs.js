@@ -38,14 +38,24 @@
 // }
 
 // 5
-let x = 31
+// let x = 31
 
-if (x < 10) {
-  console.log(9);
-} else if (x < 20) {
-  console.log(19);
-} else if (x < 30) {
-  console.log(29);
+// if (x < 10) {
+//   console.log(9);
+// } else if (x < 20) {
+//   console.log(19);
+// } else if (x < 30) {
+//   console.log(29);
+// } else {
+//   console.log(-1);
+// }
+
+// 6
+let x = 9
+let y = 12
+
+if (x > 10 || y > 10) {
+  console.log(100);
 } else {
-  console.log(-1);
+  console.log(-100)
 }
