@@ -29,10 +29,23 @@
 // }
 
 // 4
-let x = 2342
+// let x = 2342
 
-if (x > 9000) {
-  console.log(1);
+// if (x > 9000) {
+//   console.log(1);
+// } else {
+//   console.log(-1);
+// }
+
+// 5
+let x = 31
+
+if (x < 10) {
+  console.log(9);
+} else if (x < 20) {
+  console.log(19);
+} else if (x < 30) {
+  console.log(29);
 } else {
   console.log(-1);
 }
