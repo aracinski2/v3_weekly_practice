@@ -70,12 +70,22 @@
 // }
 
 // 8
-let x = 34
+// let x = 34
 
-if (x === 100) {
-  console.log(100);
-} else if (x === 99) {
-  console.log(99);
+// if (x === 100) {
+//   console.log(100);
+// } else if (x === 99) {
+//   console.log(99);
+// } else {
+//   console.log(0);
+// }
+
+// 9
+let x = 3
+let y = 3
+
+if (x < 0 && y > 0) {
+  console.log(1);
 } else {
   console.log(0);
 }
