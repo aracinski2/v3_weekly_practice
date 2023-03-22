@@ -23,8 +23,15 @@
 // console.log("My favorite colors are " + color1 + ", " + color2 + ", " + color3 + "!")
 
 // 5
-let color1 = "blue";
-let color2 = "red";
-let color3 = "green";
+// let color1 = "blue";
+// let color2 = "red";
+// let color3 = "green";
 
-console.log(`My favorite colors are ${color1}, ${color2}, ${color3}!`)
+// console.log(`My favorite colors are ${color1}, ${color2}, ${color3}!`)
+
+// 6
+const prompt = require("prompt-sync")({ sigint: true });
+let name = prompt("What is your name?", "")
+if (name != "Santa") {
+  console.log("You're not Santa");
+}
