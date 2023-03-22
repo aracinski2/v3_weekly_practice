@@ -37,6 +37,11 @@
 // }
 
 // 7
+// let title = "Harry Potty"
+// let author = "JK Rowling"
+// console.log("There is a book called " + title + ", by the author " + author + ".")
+
+// 8
 let title = "Harry Potty"
 let author = "JK Rowling"
-console.log("There is a book called " + title + ", by the author " + author + ".")
+console.log(`There is a book called ${title}, by the author ${author}.`)
