@@ -34,6 +34,13 @@
 // console.log((word1 + " " + word2).toUpperCase());
 
 // 7
+// const prompt = require("prompt-sync")({ sigint: true });
+// let word = prompt("Please enter a word:")
+// console.log(word.length);
+
+// 8
 const prompt = require("prompt-sync")({ sigint: true });
-let word = prompt("Please enter a word:")
-console.log(word.length);
+let number = prompt("Please enter a number: ")
+if (parseInt(number) < 0) {
+  console.log("That's a negative number")
+}
