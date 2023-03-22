@@ -17,6 +17,11 @@
 // console.log(parseInt(number1) + parseInt(number2));
 
 // 4
+// const prompt = require("prompt-sync")({ sigint: true });
+// let reverseWord = prompt("Please enter a word");
+// console.log(reverseWord.split("").reverse().join(""))
+
+// 5
 const prompt = require("prompt-sync")({ sigint: true });
-let reverseWord = prompt("Please enter a word");
-console.log(reverseWord.split("").reverse().join(""))
+let number = prompt("Please enter a number:");
+console.log(number * 10)
