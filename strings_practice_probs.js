@@ -1,5 +1,10 @@
 // 1
 
+// let fname = "billy"
+// let lname = "bob"
+// console.log(fname + " " + lname)
+
+// 2
 let fname = "billy"
 let lname = "bob"
-console.log(fname + " " + lname)
+console.group(`${fname} ${lname}`)
