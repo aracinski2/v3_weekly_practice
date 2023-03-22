@@ -27,8 +27,13 @@
 // console.log(parseInt(number) * 10);
 
 // 6
-const prompt = require("prompt-sync")({ sigint: true });
-let word1 = prompt("Please enter a word:");
-let word2 = prompt("Please enter another word:");
+// const prompt = require("prompt-sync")({ sigint: true });
+// let word1 = prompt("Please enter a word:");
+// let word2 = prompt("Please enter another word:");
 
-console.log((word1 + " " + word2).toUpperCase());
+// console.log((word1 + " " + word2).toUpperCase());
+
+// 7
+const prompt = require("prompt-sync")({ sigint: true });
+let word = prompt("Please enter a word:")
+console.log(word.length);
