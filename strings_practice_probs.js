@@ -47,10 +47,16 @@
 // console.log(`There is a book called ${title}, by the author ${author}.`)
 
 // 9
-const prompt = require("prompt-sync")({ sigint: true });
-let password = prompt("Please enter your password:");
-if (password === "Joshua") {
-  console.log("Shall we play a game?");
-} else {
-  console.log("Access Denied");
-}
+// const prompt = require("prompt-sync")({ sigint: true });
+// let password = prompt("Please enter your password:");
+// if (password === "Joshua") {
+//   console.log("Shall we play a game?");
+// } else {
+//   console.log("Access Denied");
+// }
+
+// 10
+let city1 = "Chicago"
+let city2 = "Las Angelos"
+let city3 = "Las Vegas"
+console.log("3 cities I've been to are " + city1 + ", " + city2 + " and " + city3 + ".")
