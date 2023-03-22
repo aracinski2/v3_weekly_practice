@@ -17,7 +17,14 @@
 // }
 
 // 4
+// let color1 = "blue";
+// let color2 = "red";
+// let color3 = "green";
+// console.log("My favorite colors are " + color1 + ", " + color2 + ", " + color3 + "!")
+
+// 5
 let color1 = "blue";
 let color2 = "red";
 let color3 = "green";
-console.log("My favorite colors are " + color1 + ", " + color2 + ", " + color3 + "!")
+
+console.log(`My favorite colors are ${color1}, ${color2}, ${color3}!`)
