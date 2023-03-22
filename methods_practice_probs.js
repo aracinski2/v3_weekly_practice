@@ -39,8 +39,15 @@
 // console.log(word.length);
 
 // 8
+// const prompt = require("prompt-sync")({ sigint: true });
+// let number = prompt("Please enter a number: ")
+// if (parseInt(number) < 0) {
+//   console.log("That's a negative number")
+// }
+
+// 9
 const prompt = require("prompt-sync")({ sigint: true });
-let number = prompt("Please enter a number: ")
-if (parseInt(number) < 0) {
-  console.log("That's a negative number")
-}
+let number1 = prompt("Please enter a number: ");
+let number2 = prompt("Please enter another number: ");
+
+console.log(number1 * number2);
