@@ -42,6 +42,15 @@
 // console.log("There is a book called " + title + ", by the author " + author + ".")
 
 // 8
-let title = "Harry Potty"
-let author = "JK Rowling"
-console.log(`There is a book called ${title}, by the author ${author}.`)
+// let title = "Harry Potty"
+// let author = "JK Rowling"
+// console.log(`There is a book called ${title}, by the author ${author}.`)
+
+// 9
+const prompt = require("prompt-sync")({ sigint: true });
+let password = prompt("Please enter your password:");
+if (password === "Joshua") {
+  console.log("Shall we play a game?");
+} else {
+  console.log("Access Denied");
+}
