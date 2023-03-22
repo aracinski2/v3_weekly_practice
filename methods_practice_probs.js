@@ -22,6 +22,13 @@
 // console.log(reverseWord.split("").reverse().join(""))
 
 // 5
+// const prompt = require("prompt-sync")({ sigint: true });
+// let number = prompt("Please enter a number:");
+// console.log(parseInt(number) * 10);
+
+// 6
 const prompt = require("prompt-sync")({ sigint: true });
-let number = prompt("Please enter a number:");
-console.log(number * 10)
+let word1 = prompt("Please enter a word:");
+let word2 = prompt("Please enter another word:");
+
+console.log((word1 + " " + word2).toUpperCase());
