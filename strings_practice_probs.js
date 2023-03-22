@@ -30,8 +30,13 @@
 // console.log(`My favorite colors are ${color1}, ${color2}, ${color3}!`)
 
 // 6
-const prompt = require("prompt-sync")({ sigint: true });
-let name = prompt("What is your name?", "")
-if (name != "Santa") {
-  console.log("You're not Santa");
-}
+// const prompt = require("prompt-sync")({ sigint: true });
+// let name = prompt("What is your name?", "")
+// if (name != "Santa") {
+//   console.log("You're not Santa");
+// }
+
+// 7
+let title = "Harry Potty"
+let author = "JK Rowling"
+console.log("There is a book called " + title + ", by the author " + author + ".")
