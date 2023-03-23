@@ -22,8 +22,15 @@
 // }
 
 // 4
-number = 0
-while (number <= 100) {
-  console.log(number);
-  number += 5;
+// number = 0
+// while (number <= 100) {
+//   console.log(number);
+//   number += 5;
+// }
+
+// 5
+let i = 1;
+while (i <= 10) {
+  console.log(9000);
+  i++;
 }
