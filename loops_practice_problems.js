@@ -53,8 +53,17 @@
 // }
 
 // 8
-let i = 1;
-while (i < 145) {
-  console.log("Around the world");
-  i++;
+// let i = 1;
+// while (i < 145) {
+//   console.log("Around the world");
+//   i++;
+// }
+
+// 9
+const prompt = require("prompt-sync")({ sigint: true });
+while (true) {
+  let word = prompt("Please enter a word: ");
+  if (word.length > 5) {
+    break;
+  }
 }
