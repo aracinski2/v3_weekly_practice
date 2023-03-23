@@ -60,10 +60,19 @@
 // }
 
 // 9
-const prompt = require("prompt-sync")({ sigint: true });
-while (true) {
-  let word = prompt("Please enter a word: ");
-  if (word.length > 5) {
-    break;
+// const prompt = require("prompt-sync")({ sigint: true });
+// while (true) {
+//   let word = prompt("Please enter a word: ");
+//   if (word.length > 5) {
+//     break;
+//   }
+// }
+
+// 10
+let number = 2;
+while (number <= 40) {
+  if (number % 2 === 0) {
+    console.log(number);
   }
+  number++;
 }
