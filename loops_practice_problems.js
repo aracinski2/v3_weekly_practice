@@ -46,8 +46,15 @@
 // }
 
 // 7
-let number = 50;
-while (number < 71) {
-  console.log(number);
-  number++;
+// let number = 50;
+// while (number < 71) {
+//   console.log(number);
+//   number++;
+// }
+
+// 8
+let i = 1;
+while (i < 145) {
+  console.log("Around the world");
+  i++;
 }
