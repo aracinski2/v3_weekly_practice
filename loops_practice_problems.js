@@ -29,8 +29,18 @@
 // }
 
 // 5
-let i = 1;
-while (i <= 10) {
-  console.log(9000);
-  i++;
+// let i = 1;
+// while (i <= 10) {
+//   console.log(9000);
+//   i++;
+// }
+
+// 6
+const prompt = require("prompt-sync")({ sigint: true });
+// let number = 0;
+while (true) {
+  let number = prompt("Please enter a number: ");
+  if (number > 10) {
+    break;
+  }
 }
