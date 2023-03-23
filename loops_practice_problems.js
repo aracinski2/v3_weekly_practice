@@ -36,11 +36,18 @@
 // }
 
 // 6
-const prompt = require("prompt-sync")({ sigint: true });
+// const prompt = require("prompt-sync")({ sigint: true });
 // let number = 0;
-while (true) {
-  let number = prompt("Please enter a number: ");
-  if (number > 10) {
-    break;
-  }
+// while (true) {
+//   let number = prompt("Please enter a number: ");
+//   if (number > 10) {
+//     break;
+//   }
+// }
+
+// 7
+let number = 50;
+while (number < 71) {
+  console.log(number);
+  number++;
 }
