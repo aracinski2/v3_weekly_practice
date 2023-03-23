@@ -13,10 +13,17 @@
 // }
 
 // 3
-const prompt = require("prompt-sync")({ sigint: true });
-while (true) {
-  word = prompt("Please enter a word: ");
-  if (word === "stop") {
-    break;
-  }
+// const prompt = require("prompt-sync")({ sigint: true });
+// while (true) {
+//   word = prompt("Please enter a word: ");
+//   if (word === "stop") {
+//     break;
+//   }
+// }
+
+// 4
+number = 0
+while (number <= 100) {
+  console.log(number);
+  number += 5;
 }
