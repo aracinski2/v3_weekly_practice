@@ -49,9 +49,14 @@
 // console.log(numbers);
 
 // 9
-let array = [10, 12];
-let index = 0;
-while (index < array.length) {
-  console.log(array[index]);
-  index += 1
-}
+// let array = [10, 12];
+// let index = 0;
+// while (index < array.length) {
+//   console.log(array[index]);
+//   index += 1
+// }
+
+// 10
+let countries = ["United States", "France", "Poland"];
+countries.push("Germany");
+console.log(countries);
