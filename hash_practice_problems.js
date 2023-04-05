@@ -14,6 +14,13 @@
 // console.log(people[0].first_name + " " + people[0].last_name);
 
 // 3
-let menu = { "hotdog": "$4.50", "Burger": "$7.00", "Fries": "$3.00" };
-menu["Slice"] = "$6.00"
-console.log(menu);
+// let menu = { "hotdog": "$4.50", "Burger": "$7.00", "Fries": "$3.00" };
+// menu["Slice"] = "$6.00"
+// console.log(menu);
+
+// 4
+let book = { title: "Game of Thrones", author: "George RR Martin", pages: 1200, language: "english" };
+console.log(book["title"]);
+console.log(book["author"]);
+console.log(book["pages"]);
+console.log(book["language"]);
