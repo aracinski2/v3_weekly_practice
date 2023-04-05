@@ -10,10 +10,22 @@
 // console.log(letters);
 
 // 3
-let numbers = [1, 3, 5, 7, 9]
+// let numbers = [1, 3, 5, 7, 9]
 // numbers.forEach(function (number) {
 //   console.log(number)
 // });
-for (i = 0; i < 5; i++) {
-  console.log(numbers[i]);
-}
+// for (i = 0; i < 5; i++) {
+//   console.log(numbers[i]);
+// }
+
+// 4
+// let numbers = [1];
+// numbers.push(2);
+// numbers.push(3);
+// numbers.push(4);
+// console.log(numbers);
+
+// 5
+let array = ["red", "blue", "green"];
+array[2] = array[2].toUpperCase();
+console.log(array);
