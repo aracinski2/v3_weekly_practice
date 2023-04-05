@@ -31,9 +31,14 @@
 // console.log(array);
 
 // 6
-let names = ["Bob", "Bill", "Jim"];
-let index = 0;
-while (index < names.length) {
-  console.log(names[index]);
-  index += 1
-}
+// let names = ["Bob", "Bill", "Jim"];
+// let index = 0;
+// while (index < names.length) {
+//   console.log(names[index]);
+//   index += 1
+// }
+
+// 7
+array = ["Hello", "there"];
+array.push("Kenobi");
+console.log(array);
