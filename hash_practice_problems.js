@@ -9,6 +9,11 @@
 // console.log(person.email);
 
 // 2
-let people = [{ first_name: "James", last_name: "Bond" }, { first_name: "Indiana", last_name: "Jones" }, { first_name: "Jon", last_name: "Snow" }];
-console.log(people[0]);
-console.log(people[0].first_name + " " + people[0].last_name);
+// let people = [{ first_name: "James", last_name: "Bond" }, { first_name: "Indiana", last_name: "Jones" }, { first_name: "Jon", last_name: "Snow" }];
+// console.log(people[0]);
+// console.log(people[0].first_name + " " + people[0].last_name);
+
+// 3
+let menu = { "hotdog": "$4.50", "Burger": "$7.00", "Fries": "$3.00" };
+menu["Slice"] = "$6.00"
+console.log(menu);
