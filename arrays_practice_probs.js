@@ -39,6 +39,11 @@
 // }
 
 // 7
-array = ["Hello", "there"];
-array.push("Kenobi");
-console.log(array);
+// array = ["Hello", "there"];
+// array.push("Kenobi");
+// console.log(array);
+
+// 8
+let numbers = [1, 2, 3, 4, 5];
+numbers[0] = numbers[0] * 10;
+console.log(numbers);
