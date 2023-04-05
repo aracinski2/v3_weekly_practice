@@ -19,8 +19,12 @@
 // console.log(menu);
 
 // 4
-let book = { title: "Game of Thrones", author: "George RR Martin", pages: 1200, language: "english" };
-console.log(book["title"]);
-console.log(book["author"]);
-console.log(book["pages"]);
-console.log(book["language"]);
+// let book = { title: "Game of Thrones", author: "George RR Martin", pages: 1200, language: "english" };
+// console.log(book["title"]);
+// console.log(book["author"]);
+// console.log(book["pages"]);
+// console.log(book["language"]);
+
+// 5
+let books = [{ title: "Harry Potter", author: "JK Rowling" }, { title: "Game of Thrones", author: "George RR Martin" }, { title: "The Witcher", author: "Andrzej Sapowski" }]
+console.log(books[2].author);
