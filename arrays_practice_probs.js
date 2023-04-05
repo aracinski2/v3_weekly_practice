@@ -26,6 +26,14 @@
 // console.log(numbers);
 
 // 5
-let array = ["red", "blue", "green"];
-array[2] = array[2].toUpperCase();
-console.log(array);
+// let array = ["red", "blue", "green"];
+// array[2] = array[2].toUpperCase();
+// console.log(array);
+
+// 6
+let names = ["Bob", "Bill", "Jim"];
+let index = 0;
+while (index < names.length) {
+  console.log(names[index]);
+  index += 1
+}
