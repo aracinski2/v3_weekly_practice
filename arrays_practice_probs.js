@@ -44,6 +44,14 @@
 // console.log(array);
 
 // 8
-let numbers = [1, 2, 3, 4, 5];
-numbers[0] = numbers[0] * 10;
-console.log(numbers);
+// let numbers = [1, 2, 3, 4, 5];
+// numbers[0] = numbers[0] * 10;
+// console.log(numbers);
+
+// 9
+let array = [10, 12];
+let index = 0;
+while (index < array.length) {
+  console.log(array[index]);
+  index += 1
+}
