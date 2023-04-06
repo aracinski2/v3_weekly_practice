@@ -26,5 +26,10 @@
 // console.log(book["language"]);
 
 // 5
-let books = [{ title: "Harry Potter", author: "JK Rowling" }, { title: "Game of Thrones", author: "George RR Martin" }, { title: "The Witcher", author: "Andrzej Sapowski" }]
-console.log(books[2].author);
+// let books = [{ title: "Harry Potter", author: "JK Rowling" }, { title: "Game of Thrones", author: "George RR Martin" }, { title: "The Witcher", author: "Andrzej Sapowski" }]
+// console.log(books[2].author);
+
+// 6
+let states = { Illinois: "Springfield", Arkansas: "Little Rock", Idaho: "Boise" };
+states["Oregon"] = "Salem";
+console.log(states);
