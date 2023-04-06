@@ -30,7 +30,13 @@
 // console.log(returnFirstLetter("fries"))
 
 // 6
-function combineStrings(string1, string2, string3) {
-  return string1 + " " + string2 + " " + string3;
+// function combineStrings(string1, string2, string3) {
+//   return string1 + " " + string2 + " " + string3;
+// }
+// console.log(combineStrings("Hello", "there", "friend"));
+
+// 7
+function returnAsString(number) {
+  return number.toString();
 }
-console.log(combineStrings("Hello", "there", "friend"));
+console.log(returnAsString(18));
