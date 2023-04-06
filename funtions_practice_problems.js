@@ -23,8 +23,14 @@
 // console.log(squared(7));
 
 // 5
-function returnFirstLetter(string) {
-  // array = string.split("");
-  return string[0];
+// function returnFirstLetter(string) {
+// array = string.split("");
+//   return string[0];
+// }
+// console.log(returnFirstLetter("fries"))
+
+// 6
+function combineStrings(string1, string2, string3) {
+  return string1 + " " + string2 + " " + string3;
 }
-console.log(returnFirstLetter("fries"))
+console.log(combineStrings("Hello", "there", "friend"));
