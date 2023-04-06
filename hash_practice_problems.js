@@ -45,6 +45,8 @@
 // console.log(laptops[1])
 
 // 9
-let definitions = [{ word: "golf", definition: "a sport" }, { word: "happy", definition: "an emotion" }]
-definitions.push({ word: "blue", definition: "a color" })
-console.log(definitions)
+// let definitions = [{ word: "golf", definition: "a sport" }, { word: "happy", definition: "an emotion" }]
+// definitions.push({ word: "blue", definition: "a color" })
+// console.log(definitions)
+
+// 10
