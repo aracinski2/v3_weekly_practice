@@ -41,5 +41,10 @@
 // console.log(laptop.year);
 
 // 8
-let laptops = [{ brand: "Apple", model: "Macbook" }, { brand: "Lenovo", model: "Ideapad" }];
-console.log(laptops[1])
+// let laptops = [{ brand: "Apple", model: "Macbook" }, { brand: "Lenovo", model: "Ideapad" }];
+// console.log(laptops[1])
+
+// 9
+let definitions = [{ word: "golf", definition: "a sport" }, { word: "happy", definition: "an emotion" }]
+definitions.push({ word: "blue", definition: "a color" })
+console.log(definitions)
