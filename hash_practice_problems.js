@@ -30,6 +30,12 @@
 // console.log(books[2].author);
 
 // 6
-let states = { Illinois: "Springfield", Arkansas: "Little Rock", Idaho: "Boise" };
-states["Oregon"] = "Salem";
-console.log(states);
+// let states = { Illinois: "Springfield", Arkansas: "Little Rock", Idaho: "Boise" };
+// states["Oregon"] = "Salem";
+// console.log(states);
+
+// 7
+let laptop = { brand: "Apple", model: "Macbook", year: "2021" }
+console.log(laptop.brand);
+console.log(laptop.model);
+console.log(laptop.year);
