@@ -36,7 +36,13 @@
 // console.log(combineStrings("Hello", "there", "friend"));
 
 // 7
-function returnAsString(number) {
-  return number.toString();
+// function returnAsString(number) {
+//   return number.toString();
+// }
+// console.log(returnAsString(18));
+
+// 8
+function multiplyStrings(string) {
+  return string + string + string + string + string;
 }
-console.log(returnAsString(18));
+console.log(multiplyStrings("fries"))
