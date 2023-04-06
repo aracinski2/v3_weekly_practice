@@ -5,7 +5,13 @@
 // console.log(timesTwo(8));
 
 // 2
-function capitalString(word) {
-  return word.toUpperCase();
+// function capitalString(word) {
+//   return word.toUpperCase();
+// }
+// console.log(capitalString("fries"));
+
+// 3
+function difference(x, y) {
+  return x - y;
 }
-console.log(capitalString("fries"));
+console.log(difference(10, 4));
