@@ -42,7 +42,14 @@
 // console.log(returnAsString(18));
 
 // 8
-function multiplyStrings(string) {
-  return string + string + string + string + string;
+// function multiplyStrings(string) {
+//   return string + string + string + string + string;
+// }
+// console.log(multiplyStrings("fries"))
+
+// 9
+function getAverage(number1, number2, number3) {
+  sum = number1 + number2 + number3;
+  return sum / 3;
 }
-console.log(multiplyStrings("fries"))
+console.log(getAverage(10, 20, 30));
