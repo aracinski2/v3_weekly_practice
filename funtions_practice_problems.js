@@ -48,8 +48,14 @@
 // console.log(multiplyStrings("fries"))
 
 // 9
-function getAverage(number1, number2, number3) {
-  sum = number1 + number2 + number3;
-  return sum / 3;
+// function getAverage(number1, number2, number3) {
+//   sum = number1 + number2 + number3;
+//   return sum / 3;
+// }
+// console.log(getAverage(10, 20, 30));
+
+// 10
+function changeNumber(number) {
+  return number * 10 + 30;
 }
-console.log(getAverage(10, 20, 30));
+console.log(changeNumber(10));
