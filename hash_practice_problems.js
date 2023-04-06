@@ -35,7 +35,11 @@
 // console.log(states);
 
 // 7
-let laptop = { brand: "Apple", model: "Macbook", year: "2021" }
-console.log(laptop.brand);
-console.log(laptop.model);
-console.log(laptop.year);
+// let laptop = { brand: "Apple", model: "Macbook", year: "2021" }
+// console.log(laptop.brand);
+// console.log(laptop.model);
+// console.log(laptop.year);
+
+// 8
+let laptops = [{ brand: "Apple", model: "Macbook" }, { brand: "Lenovo", model: "Ideapad" }];
+console.log(laptops[1])
