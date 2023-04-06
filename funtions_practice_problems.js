@@ -17,7 +17,14 @@
 // console.log(difference(10, 4));
 
 // 4
-function squared(number) {
-  return number * number;
+// function squared(number) {
+//   return number * number;
+// }
+// console.log(squared(7));
+
+// 5
+function returnFirstLetter(string) {
+  // array = string.split("");
+  return string[0];
 }
-console.log(squared(7));
+console.log(returnFirstLetter("fries"))
