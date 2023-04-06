@@ -11,7 +11,13 @@
 // console.log(capitalString("fries"));
 
 // 3
-function difference(x, y) {
-  return x - y;
+// function difference(x, y) {
+//   return x - y;
+// }
+// console.log(difference(10, 4));
+
+// 4
+function squared(number) {
+  return number * number;
 }
-console.log(difference(10, 4));
+console.log(squared(7));
