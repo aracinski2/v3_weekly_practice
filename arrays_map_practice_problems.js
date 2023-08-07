@@ -178,30 +178,45 @@
 // console.log(letters3);
 
 // 9
-let people = [{ name: "Alice", age: 27 }, { name: "Blane", age: 16 }];
-// while loop
-let ages = [];
-let i = 0;
-while (i < people.length) {
-  ages.push(people[i].age * 2);
-  i++;
-}
-console.log(ages);
-// for each
-let ages2 = []
-people.forEach(function (person) {
-  ages2.push(person.age * 2);
-})
-console.log(ages2);
-// .map 
-let ages3 = people.map(function (person) {
-  return person.age * 2;
-})
-console.log(ages3);
+// let people = [{ name: "Alice", age: 27 }, { name: "Blane", age: 16 }];
+// // while loop
+// let ages = [];
+// let i = 0;
+// while (i < people.length) {
+//   ages.push(people[i].age * 2);
+//   i++;
+// }
+// console.log(ages);
+// // for each
+// let ages2 = []
+// people.forEach(function (person) {
+//   ages2.push(person.age * 2);
+// })
+// console.log(ages2);
+// // .map 
+// let ages3 = people.map(function (person) {
+//   return person.age * 2;
+// })
+// console.log(ages3);
 
 // 10
+let numbers = [1, 2, 3];
 // while loop
-
+let strings = [];
+let i = 0;
+while (i < numbers.length) {
+  strings.push(numbers[i].toString());
+  i++;
+}
+console.log(strings);
 // for each
-
+let strings2 = [];
+numbers.forEach(function (number) {
+  strings2.push(number.toString());
+})
+console.log(strings2);
 // .map 
+let strings3 = numbers.map(function (number) {
+  return number.toString();
+})
+console.log(strings3);
