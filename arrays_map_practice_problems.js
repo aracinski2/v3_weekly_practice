@@ -134,33 +134,48 @@
 // })
 // console.log(ages3);
 // 7
-numbers = [1, 2, 3];
-// while loop
-let halfNumbers = [];
-i = 0;
-while (i < numbers.length) {
-  halfNumbers.push(numbers[i] / 2);
-  i++;
-}
-console.log(halfNumbers);
-// for each
-let halfNumbers2 = [];
-numbers.forEach(function (number) {
-  halfNumbers2.push(number / 2);
-})
-console.log(halfNumbers2);
-// .map
-let halfNumbers3 = numbers.map(function (number) {
-  return number / 2;
-})
-console.log(halfNumbers3);
+// numbers = [1, 2, 3];
+// // while loop
+// let halfNumbers = [];
+// i = 0;
+// while (i < numbers.length) {
+//   halfNumbers.push(numbers[i] / 2);
+//   i++;
+// }
+// console.log(halfNumbers);
+// // for each
+// let halfNumbers2 = [];
+// numbers.forEach(function (number) {
+//   halfNumbers2.push(number / 2);
+// })
+// console.log(halfNumbers2);
+// // .map
+// let halfNumbers3 = numbers.map(function (number) {
+//   return number / 2;
+// })
+// console.log(halfNumbers3);
 
 // 8
+words = ["hello", "goodbye"];
 // while loop
-
+let letters = [];
+i = 0;
+while (i < words.length) {
+  letters.push(words[i][0]);
+  i++;
+}
+console.log(letters);
 // for each
-
-// .map 
+let letters2 = [];
+words.forEach(function (word) {
+  letters2.push(word[0]);
+})
+console.log(letters2);
+// .map
+let letters3 = words.map(function (word) {
+  return word[0];
+})
+console.log(letters3);
 
 // 9
 // while loop
