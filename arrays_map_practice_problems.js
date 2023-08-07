@@ -156,33 +156,48 @@
 // console.log(halfNumbers3);
 
 // 8
-words = ["hello", "goodbye"];
-// while loop
-let letters = [];
-i = 0;
-while (i < words.length) {
-  letters.push(words[i][0]);
-  i++;
-}
-console.log(letters);
-// for each
-let letters2 = [];
-words.forEach(function (word) {
-  letters2.push(word[0]);
-})
-console.log(letters2);
-// .map
-let letters3 = words.map(function (word) {
-  return word[0];
-})
-console.log(letters3);
+// words = ["hello", "goodbye"];
+// // while loop
+// let letters = [];
+// i = 0;
+// while (i < words.length) {
+//   letters.push(words[i][0]);
+//   i++;
+// }
+// console.log(letters);
+// // for each
+// let letters2 = [];
+// words.forEach(function (word) {
+//   letters2.push(word[0]);
+// })
+// console.log(letters2);
+// // .map
+// let letters3 = words.map(function (word) {
+//   return word[0];
+// })
+// console.log(letters3);
 
 // 9
+let people = [{ name: "Alice", age: 27 }, { name: "Blane", age: 16 }];
 // while loop
-
+let ages = [];
+let i = 0;
+while (i < people.length) {
+  ages.push(people[i].age * 2);
+  i++;
+}
+console.log(ages);
 // for each
-
+let ages2 = []
+people.forEach(function (person) {
+  ages2.push(person.age * 2);
+})
+console.log(ages2);
 // .map 
+let ages3 = people.map(function (person) {
+  return person.age * 2;
+})
+console.log(ages3);
 
 // 10
 // while loop
