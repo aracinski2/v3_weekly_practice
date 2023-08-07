@@ -70,32 +70,47 @@
 // console.log(names3);
 
 // 4
-numbers = [1, 2, 3];
+// numbers = [1, 2, 3];
+// // while loop
+// newNumbers = [];
+// i = 0;
+// while (i < numbers.length) {
+//   newNumbers.push(numbers[i] + 7);
+//   i++;
+// }
+// console.log(newNumbers);
+// // for each
+// newNumbers2 = [];
+// numbers.forEach(function (number) {
+//   newNumbers2.push(number + 7);
+// })
+// console.log(newNumbers2);
+// // .map
+// let newNumbers3 = numbers.map(function (number) {
+//   return number + 7;
+// })
+// console.log(newNumbers3)
+// 5
+words = ["hello", "goodbye"];
 // while loop
-newNumbers = [];
+let wordLength = [];
 i = 0;
-while (i < numbers.length) {
-  newNumbers.push(numbers[i] + 7);
+while (i < words.length) {
+  wordLength.push(words[i].length);
   i++;
 }
-console.log(newNumbers);
+console.log(wordLength);
 // for each
-newNumbers2 = [];
-numbers.forEach(function (number) {
-  newNumbers2.push(number + 7);
+let wordLength2 = [];
+words.forEach(function (word) {
+  wordLength2.push(word.length);
 })
-console.log(newNumbers2);
+console.log(wordLength2);
 // .map
-let newNumbers3 = numbers.map(function (number) {
-  return number + 7;
+let wordLength3 = words.map(function (word) {
+  return word.length;
 })
-console.log(newNumbers3)
-// 5
-// while loop
-
-// for each
-
-// .map 
+console.log(wordLength3);
 
 // 6
 // while loop
