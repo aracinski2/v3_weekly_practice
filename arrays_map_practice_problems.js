@@ -48,34 +48,48 @@
 // console.log(upStrings3);
 
 // 3
-let hashArray = [{ name: "Alice", age: 27 }, { name: "Blane", age: 16 }];
-// while loop
-let names = [];
-i = 0;
-while (i < hashArray.length) {
-  names.push(hashArray[i].name);
-  i++;
-}
-console.log(names);
-// for each
-let names2 = [];
-hashArray.forEach(function (person) {
-  names2.push(person.name);
-})
-console.log(names2);
-// .map
-names3 = hashArray.map(function (person) {
-  return person.name;
-})
-console.log(names3);
+// let hashArray = [{ name: "Alice", age: 27 }, { name: "Blane", age: 16 }];
+// // while loop
+// let names = [];
+// i = 0;
+// while (i < hashArray.length) {
+//   names.push(hashArray[i].name);
+//   i++;
+// }
+// console.log(names);
+// // for each
+// let names2 = [];
+// hashArray.forEach(function (person) {
+//   names2.push(person.name);
+// })
+// console.log(names2);
+// // .map
+// names3 = hashArray.map(function (person) {
+//   return person.name;
+// })
+// console.log(names3);
 
 // 4
+numbers = [1, 2, 3];
 // while loop
-
+newNumbers = [];
+i = 0;
+while (i < numbers.length) {
+  newNumbers.push(numbers[i] + 7);
+  i++;
+}
+console.log(newNumbers);
 // for each
-
-// .map 
-
+newNumbers2 = [];
+numbers.forEach(function (number) {
+  newNumbers2.push(number + 7);
+})
+console.log(newNumbers2);
+// .map
+let newNumbers3 = numbers.map(function (number) {
+  return number + 7;
+})
+console.log(newNumbers3)
 // 5
 // while loop
 
