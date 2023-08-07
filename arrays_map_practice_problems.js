@@ -25,34 +25,49 @@
 // console.log(newArray3);
 
 // 2
-let strings = ["red", "blue", "green"];
-// while loop
-let upStrings = [];
-let i = 0;
-while (i < strings.length) {
-  upStrings.push(strings[i].toUpperCase());
-  i++;
-}
-console.log(upStrings);
+// let strings = ["red", "blue", "green"];
+// // while loop
+// let upStrings = [];
+// let i = 0;
+// while (i < strings.length) {
+//   upStrings.push(strings[i].toUpperCase());
+//   i++;
+// }
+// console.log(upStrings);
 
-// for each
-let upStrings2 = [];
-strings.forEach(function (string) {
-  upStrings2.push(string.toUpperCase());
-})
-console.log(upStrings2);
-// .map
-let upStrings3 = strings.map(function (string) {
-  return string.toUpperCase();
-})
-console.log(upStrings3);
+// // for each
+// let upStrings2 = [];
+// strings.forEach(function (string) {
+//   upStrings2.push(string.toUpperCase());
+// })
+// console.log(upStrings2);
+// // .map
+// let upStrings3 = strings.map(function (string) {
+//   return string.toUpperCase();
+// })
+// console.log(upStrings3);
 
 // 3
+let hashArray = [{ name: "Alice", age: 27 }, { name: "Blane", age: 16 }];
 // while loop
-
+let names = [];
+i = 0;
+while (i < hashArray.length) {
+  names.push(hashArray[i].name);
+  i++;
+}
+console.log(names);
 // for each
-
-// .map 
+let names2 = [];
+hashArray.forEach(function (person) {
+  names2.push(person.name);
+})
+console.log(names2);
+// .map
+names3 = hashArray.map(function (person) {
+  return person.name;
+})
+console.log(names3);
 
 // 4
 // while loop
